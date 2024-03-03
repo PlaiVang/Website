@@ -1,0 +1,35 @@
+<!-- your_app/templates/your_app/home.html -->
+{% load static %} <!-- Add this line at the top of your file -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fantasy Football Home</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fantasy Football Central!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Players</a></li>
+            <li><a href="#">Stats</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Latest News</h2>
+            <p>Check out the latest in fantasy football.</p>
+        </section>
+        <section>
+            <h2>Top Players</h2>
+            <p>See who's leading in stats this season.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fantasy Football Central</p>
+    </footer>
+</body>
+</html>
